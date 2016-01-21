@@ -1,0 +1,200 @@
+/*** Global ***/
+
+body {
+	margin:0px;
+	padding:0px;
+	background-color:none;
+	height:1600px;
+}
+
+p {
+	font-family:Helvetica, sans-serif;
+}
+
+#page {
+	width:1200px;
+	height:1450px;
+	background-color:red;
+	margin:auto;
+	position:relative;
+	top:50px;
+}
+
+#main {
+	width:1350px;
+	height:1750px;
+	background-color:none;
+	margin:auto;
+	position:relative;
+	top:150px;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+/*** Header ***/
+
+header {
+	width:100%;
+	height:100px;
+	background-color:#F7F7F7;
+	top:0;
+	position:fixed;
+	z-index:1;
+}
+
+header img {
+	width:100px;
+	position:relative;
+	top:15px;
+	left:50px;
+}
+
+header div {
+	display:inline-block;
+}
+
+.hsquare {
+	width:100px;
+	height:100px;
+	background-color:red;
+	position:relative;
+	top:-57px;
+	text-align:center;
+}
+
+.hsquare a {
+	position:relative;
+}
+
+
+/* .linksquare makes the whole square a link*/
+.linksquare {
+	background-color:white;
+	width:100px;
+	height:100px;
+}
+
+/* .text makes the text in .linksquare centered*/
+
+.text {
+	background-color:white;
+	position:relative;
+	top:20px;
+}
+
+.about-square {
+	position:absolute;
+	right:20px;
+	top:0;
+}
+
+.work-square {
+	position:absolute;
+	right:120px;
+	top:0;	
+}
+
+div.about-square div.linksquare, div.about-square div.text{
+	background:#F7F7F7;
+}
+
+div.about-square p {
+	color:grey;
+}
+
+/*** Gallery ***/
+
+#gallery {
+	width:1350px;
+	height:1750px;
+	background-color:none;
+	position:relative;
+}
+
+#gallery p {
+	margin:0;
+	text-align:center;
+	padding:5px;
+}
+
+img[title = "Illustrations"], img[title = "Logos"] {
+	width:900px;
+	height:400px;
+}
+
+
+img[title = "NBA 2K16"], img[title = "Armada"], img[title = "Landmarks"], img[title = "Treatsbot"], img[title = "NBA 2K15"], img[title = "Clinkle"] {
+	width:400px;
+	height:400px;
+}
+
+#illustrations {
+	width:900px;
+	height:430px;
+	float:left;
+}
+
+
+#nba-2k16{
+	position:relative;
+	left:50px;
+	width:400px;
+	height:430px;
+	float:left;
+}
+
+#armada {
+	position:relative;
+	top:70px;
+	width:400px;
+	height:430px;
+	float:left;
+}
+
+
+#logos {
+	position:relative;
+	top:70px;
+	left:50px;
+	width:900px;
+	height:430px;
+	float:left;
+}
+
+
+#landmarks {
+	position:relative;
+	top:130px;
+	width:400px;
+	height:430px;
+	float:left;
+}
+
+#treatsbot {
+	position:relative;
+	top:130px;
+	left:75px;
+	width:400px;
+	height:430px;
+	float:left;
+}
+
+#nba-2k15 {
+	position:relative;
+	top:130px;
+	left:150px;
+	width:400px;
+	height:430px;
+	float:left;
+}
+
+#clinkle {
+	position:relative;
+	top:190px;
+	width:400px;
+	height:430px;
+	float:left;
+}
